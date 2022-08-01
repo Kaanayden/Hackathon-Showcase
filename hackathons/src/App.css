@@ -1,9 +1,9 @@
 .App{
-  position: absolute;
-  top: 25px;
+  position: relative;
   width: 100%;
   display: grid;
   column-gap: 50px;
   row-gap: 50px;
-  background: white;
+  background-image: linear-gradient(to top left, black, gray);
+  z-index:-100;
 }

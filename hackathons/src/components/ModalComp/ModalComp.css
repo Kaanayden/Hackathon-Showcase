@@ -1,0 +1,7 @@
+.fixed-btn{
+    display: grid;
+    align-items: center; 
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}

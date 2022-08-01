@@ -12,24 +12,28 @@
     color: white;
     border-top: 5px solid black;
 }
+.inner{
+    display: flex;
+}
 .title{
-    margin-bottom:30px;
+    margin-top: -3px;
+    font-size: xx-large;
     text-transform: uppercase;
-    width: 500px;
+    width: 20%;
     text-align: center;
 }
 .date{
-    margin-top: -70px;
-    margin-left: 400px;
-    width: 70%;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: larger;
+    width: 60%;
     text-align: center;
 }
 .prize{
     font-size: xx-large;
-    height: 60px;
-    margin-top: -60px;
+    width: 20%;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 .description{
     background-color: gray;
@@ -41,7 +45,7 @@
 .image{
     width: auto;
     height: 200px;
-    max-width: 500px;
+    max-width: 100%;
     margin-bottom: 5px;
     left: 1px;
     border-radius: 0 50px 0 50px;
